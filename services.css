@@ -1,0 +1,52 @@
+.services {
+    padding: 2em;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.service-item {
+    background-color: #f8f9fa;
+    padding: 1.5em;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .service-item {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .service-item {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .service-grid {
+        gap: 1em;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .service-grid {
+        gap: 1.5em;
+    }
+}
